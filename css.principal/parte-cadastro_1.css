@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    background-image: url("fundo\ de\ login\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    padding: 100px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 340px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 28px 24px;
+    box-shadow: 0 10px 35px rgba(12, 173, 6, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.titulo-login {
+    display: block;
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 22px;
+    color: #000000;
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+.campo label {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.campo input {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.campo input:focus {
+    border-color: #67a318;
+    box-shadow: 0 0 0 3px rgba(103, 163, 24, 0.2);
+}
+
+.termos {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #d10c0c;
+    margin: 9px 1px 1px 1px;
+}
+
+.termos input {
+    margin: 0;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #67a318;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.btn-submit:hover {
+    background-color: #5a8c14;
+}
+
+.btn-submit:active {
+    transform: scale(0.98);
+}
+
+.cadastro-link {
+    text-align: center;
+    margin: 14px 0 0 0;
+    font-size: 13px;
+}
+
+.cadastro-link a {
+    color: #67a318;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cadastro-link a:hover {
+    text-decoration: underline;
+}
+.p {
+    text-align: center;
+    font-size: 16px;
+    color: #0837d3;
+    margin-top: 10px;
+}
+.label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 17px;
+    color: #f50202;
+    margin: 12px 0 6px 0;
+}
+.link {
+    text-decoration: none;
+     color:blue;
+}

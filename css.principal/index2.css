@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-image: url("fundo-imagem");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    padding: 40px 20px;
+}
+
+.cadastro-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 28px 24px;
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(12, 173, 6, 0.35);
+    width: 100%;
+    max-width: 400px;
+}
+
+.cartao-postal {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.cartao-postal h2 {
+    margin: 0 0 8px;
+    color: #222;
+}
+
+.cartao-postal p {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+}
+
+
+
+.campo {
+    width: 100%;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.campo input:focus {
+    outline: none;
+    border-color: #67a318;
+    box-shadow: 0 0 0 3px rgba(103, 163, 24, 0.2);
+}
+
+.botao-entrar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #67a318;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-submit:hover {
+    background-color: #5a8c14;
+}
+
+.btn-submit:active {
+    transform: scale(0.98);
+}
+
+.voltar-link {
+    margin-top: 14px;
+    color:  red;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.voltar-link .btn-link {
+    color: rgb(15, 35, 221);
+    font-size: 16px;
+    font-weight: 600;
+}
